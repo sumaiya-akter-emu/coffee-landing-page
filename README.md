@@ -1,4 +1,4 @@
-'# ☕ Brew & Bean - Premium Coffee Landing Page
+## ☕ Brew & Bean - Premium Coffee Landing Page
 
 A modern, responsive landing page for a premium coffee shop built with vanilla HTML, CSS, and JavaScript. This project showcases clean design principles, smooth animations, and an exceptional user experience inspired by contemporary coffee shop aesthetics.
 
@@ -146,7 +146,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 **Sumaiya Akter** - [@sumaiya-akter-emu](https://github.com/sumaiya-akter-emu/))
 
-Project Link: [https://github.com/yourusername/coffee-landing-page](https://github.com/yourusername/coffee-landing-page)
+Project Link: [https://github.com/sumaiya-akter-emu/coffee-landing-page](https://github.com/sumaiya-akter-emu/coffee-landing-page)
 
 ## 🙏 Acknowledgments
 
