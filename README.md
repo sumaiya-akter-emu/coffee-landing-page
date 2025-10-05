@@ -2,7 +2,10 @@
 
 A modern, responsive landing page for a premium coffee shop built with vanilla HTML, CSS, and JavaScript. This project showcases clean design principles, smooth animations, and an exceptional user experience inspired by contemporary coffee shop aesthetics.
 
-![Coffee Landing Page](https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=1200&h=600&fit=crop&crop=center)
+<a href="https://github.com/sumaiya-akter-emu/coffee-landing-page/blob/main/coffee-landing-page.png" target="_blank">
+  <img src="https://github.com/sumaiya-akter-emu/coffee-landing-page/blob/main/coffee-landing-page.png" width="200"/>
+</a>
+
 
 ## 🌟 Features
 
@@ -56,7 +59,7 @@ A modern, responsive landing page for a premium coffee shop built with vanilla H
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/coffee-landing-page.git
+   git clone (https://github.com/sumaiya-akter-emu/coffee-landing-page.git)
    cd coffee-landing-page
    ```
 
