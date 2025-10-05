@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew & Bean - Premium Coffee Experience</title>
+    <meta name="description" content="Experience the perfect blend of artisan coffee, cozy atmosphere, and exceptional service at Brew & Bean. Premium coffee crafted with passion since 2015.">
+    <meta name="author" content="Brew & Bean">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Brew & Bean - Premium Coffee Experience">
+    <meta property="og:description" content="Experience the perfect blend of artisan coffee, cozy atmosphere, and exceptional service at Brew & Bean. Premium coffee crafted with passion since 2015.">
+    <meta property="og:type" content="website">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo">
+                    <i data-lucide="coffee" class="logo-icon"></i>
+                    <span class="logo-text">Brew & Bean</span>
+                </div>
+
+                <!-- Navigation -->
+                <nav class="nav">
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#menu" class="nav-link">Menu</a>
+                    <a href="#location" class="nav-link">Location</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+
+                <!-- CTA Button -->
+                <div class="header-cta">
+                    <button class="btn btn-coffee">Order Now</button>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobile-menu-btn">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-icon">
+                    <i data-lucide="coffee" class="hero-coffee-icon"></i>
+                </div>
+                
+                <h1 class="hero-title">
+                    Crafted with
+                    <span class="hero-accent">Passion & Love</span>
+                </h1>
+                
+                <p class="hero-description">
+                    Experience the perfect blend of artisan coffee, cozy atmosphere, and exceptional service in every cup we serve.
+                </p>
+                
+                <div class="hero-buttons">
+                    <button class="btn btn-coffee btn-lg group">
+                        Explore Our Menu
+                        <i data-lucide="arrow-right" class="btn-icon"></i>
+                    </button>
+                    <button class="btn btn-outline btn-lg">
+                        Visit Our Store
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-dot"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <!-- Text Content -->
+                <div class="about-text">
+                    <div class="section-content">
+                        <h2 class="section-title">Our Story</h2>
+                        <p class="section-description">
+                            Founded in 2015 by coffee enthusiasts Maria and James, Brew & Bean started as a small neighborhood café with a simple mission: to serve exceptional coffee that brings people together.
+                        </p>
+                        <p class="section-description">
+                            We source our beans directly from sustainable farms around the world, roast them in small batches, and serve them with the care and attention they deserve.
+                        </p>
+                    </div>
+
+                    <!-- Features -->
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <i data-lucide="coffee" class="feature-icon feature-icon-coffee"></i>
+                            <h3 class="feature-title">Premium Beans</h3>
+                            <p class="feature-description">Ethically sourced from the world's finest coffee regions</p>
+                        </div>
+                        <div class="feature-card">
+                            <i data-lucide="heart" class="feature-icon feature-icon-heart"></i>
+                            <h3 class="feature-title">Made with Love</h3>
+                            <p class="feature-description">Every cup crafted with passion and attention to detail</p>
+                        </div>
+                        <div class="feature-card">
+                            <i data-lucide="users" class="feature-icon feature-icon-users"></i>
+                            <h3 class="feature-title">Community First</h3>
+                            <p class="feature-description">Building connections one conversation at a time</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image -->
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=800&h=500&fit=crop&crop=center" alt="Coffee roasting process" class="section-image">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <!-- Header -->
+            <div class="section-header">
+                <h2 class="section-title">Our Menu</h2>
+                <p class="section-subtitle">
+                    Discover our carefully curated selection of premium coffee drinks, each crafted to perfection by our skilled baristas.
+                </p>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Menu Items -->
+                <div class="menu-content">
+                    <div class="menu-category">
+                        <h3 class="menu-category-title">Espresso Drinks</h3>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-name">Classic Espresso</h4>
+                                    <span class="menu-item-price">$3.50</span>
+                                </div>
+                                <p class="menu-item-description">Rich, bold single shot</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-name">Americano</h4>
+                                    <span class="menu-item-price">$4.00</span>
+                                </div>
+                                <p class="menu-item-description">Espresso with hot water</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-name">Cappuccino</h4>
+                                    <span class="menu-item-price">$4.75</span>
+                                </div>
+                                <p class="menu-item-description">Equal parts espresso, steamed milk, and foam</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-name">Latte</h4>
+                                    <span class="menu-item-price">$5.25</span>
+                                </div>
+                                <p class="menu-item-description">Espresso with steamed milk and light foam</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-category">
+                        <h3 class="menu-category-title">Specialty Drinks</h3>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-name">Caramel Macchiato</h4>
+                                    <span class="menu-item-price">$5.75</span>
+                                </div>
+                                <p class="menu-item-description">Vanilla syrup, steamed milk, espresso, caramel drizzle</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-name">Mocha</h4>
+                                    <span class="menu-item-price">$5.50</span>
+                                </div>
+                                <p class="menu-item-description">Chocolate syrup, espresso, steamed milk, whipped cream</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-name">Flat White</h4>
+                                    <span class="menu-item-price">$5.00</span>
+                                </div>
+                                <p class="menu-item-description">Double shot with microfoam milk</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-name">Cold Brew</h4>
+                                    <span class="menu-item-price">$4.25</span>
+                                </div>
+                                <p class="menu-item-description">Smooth, cold-steeped coffee</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-cta">
+                        <button class="btn btn-coffee btn-lg">View Full Menu</button>
+                    </div>
+                </div>
+
+                <!-- Image -->
+                <div class="menu-image">
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&h=600&fit=crop&crop=center" alt="Coffee menu items" class="section-image">
+                        <div class="image-overlay"></div>
+                        
+                        <!-- Overlay Content -->
+                        <div class="menu-overlay-content">
+                            <div class="menu-badge">
+                                <h4 class="menu-badge-title">Fresh Daily</h4>
+                                <p class="menu-badge-text">All our pastries and food items are made fresh daily using premium ingredients.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="location">
+        <div class="container">
+            <!-- Header -->
+            <div class="section-header">
+                <h2 class="section-title">Visit Our Café</h2>
+                <p class="section-subtitle">
+                    Come experience our warm, welcoming atmosphere in the heart of downtown. Perfect for work, meetings, or simply enjoying great coffee.
+                </p>
+            </div>
+
+            <div class="location-grid">
+                <!-- Location Info -->
+                <div class="location-info">
+                    <div class="info-grid">
+                        <div class="info-card">
+                            <i data-lucide="map-pin" class="info-icon info-icon-map"></i>
+                            <h3 class="info-title">Address</h3>
+                            <p class="info-text">
+                                123 Coffee Street<br>
+                                Downtown District<br>
+                                City, ST 12345
+                            </p>
+                        </div>
+
+                        <div class="info-card">
+                            <i data-lucide="clock" class="info-icon info-icon-clock"></i>
+                            <h3 class="info-title">Hours</h3>
+                            <p class="info-text">
+                                Mon-Fri: 6:30 AM - 8 PM<br>
+                                Sat-Sun: 7 AM - 9 PM<br>
+                                Holidays: 8 AM - 6 PM
+                            </p>
+                        </div>
+
+                        <div class="info-card">
+                            <i data-lucide="phone" class="info-icon info-icon-phone"></i>
+                            <h3 class="info-title">Phone</h3>
+                            <p class="info-text">
+                                (555) 123-BREW<br>
+                                Call for reservations<br>
+                                or special orders
+                            </p>
+                        </div>
+
+                        <div class="info-card">
+                            <i data-lucide="wifi" class="info-icon info-icon-wifi"></i>
+                            <h3 class="info-title">Free WiFi</h3>
+                            <p class="info-text">
+                                High-speed internet<br>
+                                Perfect for remote work<br>
+                                or studying
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="location-cta">
+                        <button class="btn btn-coffee btn-lg">Get Directions</button>
+                    </div>
+                </div>
+
+                <!-- Interior Image -->
+                <div class="location-image">
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=800&h=500&fit=crop&crop=center" alt="Coffee shop interior" class="section-image">
+                        <div class="image-overlay"></div>
+                        
+                        <!-- Overlay Badge -->
+                        <div class="location-badge">
+                            Pet Friendly ✨
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <!-- Header -->
+            <div class="section-header">
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="section-subtitle">
+                    Have questions, feedback, or want to book our space for an event? We'd love to hear from you!
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Contact Options -->
+                <div class="contact-options">
+                    <div class="contact-card">
+                        <i data-lucide="mail" class="contact-icon contact-icon-mail"></i>
+                        <h3 class="contact-title">Email Us</h3>
+                        <p class="contact-description">
+                            Send us a message and we'll get back to you within 24 hours.
+                        </p>
+                        <button class="btn btn-outline btn-full">
+                            hello@brewandbean.com
+                        </button>
+                    </div>
+
+                    <div class="contact-card">
+                        <i data-lucide="message-circle" class="contact-icon contact-icon-chat"></i>
+                        <h3 class="contact-title">Live Chat</h3>
+                        <p class="contact-description">
+                            Chat with our team during business hours for instant help.
+                        </p>
+                        <button class="btn btn-outline btn-full">
+                            Start Chat
+                        </button>
+                    </div>
+
+                    <div class="contact-card">
+                        <i data-lucide="calendar" class="contact-icon contact-icon-calendar"></i>
+                        <h3 class="contact-title">Book Event</h3>
+                        <p class="contact-description">
+                            Reserve our space for private events, meetings, or parties.
+                        </p>
+                        <button class="btn btn-outline btn-full">
+                            Book Now
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <div class="contact-form-card">
+                        <h3 class="form-title">Send us a Message</h3>
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name" class="form-label">Your Name</label>
+                                    <input type="text" id="name" class="form-input" placeholder="Enter your name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="form-label">Email Address</label>
+                                    <input type="email" id="email" class="form-input" placeholder="Enter your email">
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" id="subject" class="form-input" placeholder="What's this about?">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" class="form-textarea" placeholder="Tell us more..." rows="6"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-coffee btn-lg btn-full">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand -->
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <i data-lucide="coffee" class="footer-logo-icon"></i>
+                        <span class="footer-logo-text">Brew & Bean</span>
+                    </div>
+                    <p class="footer-description">
+                        Crafting exceptional coffee experiences since 2015. Where passion meets perfection in every cup.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i data-lucide="instagram"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i data-lucide="facebook"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i data-lucide="twitter"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-links">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <nav class="footer-nav">
+                        <a href="#about" class="footer-link">About Us</a>
+                        <a href="#menu" class="footer-link">Our Menu</a>
+                        <a href="#location" class="footer-link">Location</a>
+                        <a href="#contact" class="footer-link">Contact</a>
+                        <a href="#" class="footer-link">Careers</a>
+                    </nav>
+                </div>
+
+                <!-- Services -->
+                <div class="footer-links">
+                    <h3 class="footer-title">Services</h3>
+                    <nav class="footer-nav">
+                        <a href="#" class="footer-link">Catering</a>
+                        <a href="#" class="footer-link">Private Events</a>
+                        <a href="#" class="footer-link">Coffee Subscriptions</a>
+                        <a href="#" class="footer-link">Barista Training</a>
+                        <a href="#" class="footer-link">Wholesale</a>
+                    </nav>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="footer-contact">
+                    <h3 class="footer-title">Contact Info</h3>
+                    <div class="footer-contact-info">
+                        <div class="footer-contact-item">
+                            <i data-lucide="phone" class="footer-contact-icon"></i>
+                            <span class="footer-contact-text">(555) 123-BREW</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i data-lucide="mail" class="footer-contact-icon"></i>
+                            <span class="footer-contact-text">hello@brewandbean.com</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i data-lucide="map-pin" class="footer-contact-icon"></i>
+                            <span class="footer-contact-text">123 Coffee Street, Downtown</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="footer-bottom">
+                <p class="footer-copyright">
+© 2025 Brew & Bean. All rights reserved. Made with ❤️ by Sumaiya.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
