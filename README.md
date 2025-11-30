@@ -7,7 +7,7 @@ A modern, responsive landing page for a premium coffee shop built with vanilla H
 </a>
 
 ## Live Demo
-Check out the live project here: [Project Link](https://sumaiya-akter-emu.github.io/coffee-landing-page/)
+live project here: [View Live Demo](https://sumaiya-akter-emu.github.io/coffee-landing-page/)
 
 ## 🌟 Features
 
